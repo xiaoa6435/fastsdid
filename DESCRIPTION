@@ -1,0 +1,25 @@
+Package: fastsdid
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Estimate average treatment effects in panel data.
+    Currently provides methods only for the case that all treated units
+    adopt treatment at the same time.
+Depends:
+    R (>= 3.4)
+Imports:
+    mvtnorm
+License: GPL (>= 2) | BSD_3_clause + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests:
+    testthat,
+    ggplot2,
+    CVXR
+URL: https://github.com/synth-inference/synthdid
+BugReports: https://github.com/synth-inference/synthdid/issues
+Config/rextendr/version: 0.2.0.9000
